@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /
 
 # Copy the entire content of the GitHub repository into the /app directory in the container
-COPY ..
+COPY . .
 
 # Compile the Java program
 RUN javac DiamondPattern.java
