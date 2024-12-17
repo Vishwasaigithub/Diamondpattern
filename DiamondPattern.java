@@ -1,6 +1,6 @@
 public class DiamondPattern {
     public static void main(String[] args) {
-        int n = 5; // You can change this value to change the size of the diamond
+        int n = 5; // Adjust the size of the diamond here
 
         // Print the upper half of the diamond
         for (int i = 1; i <= n; i++) {
@@ -31,28 +31,3 @@ public class DiamondPattern {
         }
     }
 }
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-DiamondPattern.java [unix] (05:29 01/01/1970)                            0,1 All
--- INSERT --
-
