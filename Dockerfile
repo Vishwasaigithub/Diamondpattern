@@ -2,16 +2,13 @@
 FROM openjdk:17-jdk-slim
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /
 
 # Copy the entire content of the GitHub repository into the /app directory in the container
-COPY . /app
-
-# List files to verify DiamondPattern.java is in the right location
-RUN ls -l /app
+COPY ..
 
 # Compile the Java program
-RUN javac /app/DiamondPattern.java
+RUN javac DiamondPattern.java
 
 # Run the Java program
-CMD ["java", "-cp", "/app", "DiamondPattern"]
+CMD ["java", "DiamondPattern"]
